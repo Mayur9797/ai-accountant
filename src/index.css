@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#root {
+  width: 100%;
+}
+/* ================= HERO SECTION ================= */
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:#f5f7fa;
+}
+
+.hero h1{
+    font-size:55px;
+    color:#1e3a8a;
+    margin-bottom:15px;
+}
+
+.hero h2{
+    font-size:32px;
+    color:#333;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    color:#666;
+    width:60%;
+    margin:0 auto 30px;
+    line-height:1.6;
+}
+
+.hero-btn{
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    font-size:18px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.hero-btn:hover{
+    background:#2563eb;
+    transform:scale(1.05);
+}

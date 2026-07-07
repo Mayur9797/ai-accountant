@@ -1,0 +1,47 @@
+.why {
+    background: #0f172a;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.why h2 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.why-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.why-box {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    color: white;
+    transition: 0.3s;
+}
+
+.why-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.why-box h3 {
+    color: #60A5FA;
+    margin-bottom: 15px;
+}
+
+.why-box p {
+    color: #d1d5db;
+}
+
+@media (max-width: 768px) {
+    .why-container {
+        grid-template-columns: 1fr;
+    }
+}
