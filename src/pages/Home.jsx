@@ -5,34 +5,74 @@ import WhyChoose from "../components/WhyChoose";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
+
 function Home() {
-return (
-  <>
-    <div className="hero">
-      <h1>AI Accountant</h1>
+  return (
+    <>
+      <section className="hero">
 
-      <h2>Manage Your Finance with AI</h2>
+        <div className="hero-content">
 
-      <p>
-        Track your income, expenses and financial reports in one place.
-      </p>
+          <h1>AI Accountant</h1>
 
-      <Link to="/signup">
-  <button>Get Started</button>
-   </Link>
-    </div>
+          <h2>Smart AI-Powered Financial Management</h2>
 
-    <section id="features">
-  <Features />
-</section>
-  <section id="about">
-  <About />
-</section>
-    <WhyChoose />
-    <Testimonials />
-    <Footer />
-  </>
-);
+          <p>
+            Manage your income, expenses, budgets, and financial reports with
+            the power of Artificial Intelligence. Track every transaction,
+            receive smart financial insights, and make better financial
+            decisions with ease.
+          </p>
+
+          <div className="hero-buttons">
+
+            <Link to="/signup">
+              <button className="primary-btn">
+                Get Started
+              </button>
+            </Link>
+
+            <Link to="/dashboard">
+              <button className="secondary-btn">
+                View Dashboard
+              </button>
+            </Link>
+
+          </div>
+
+          <div className="hero-features">
+
+            <span>🤖 AI Powered</span>
+
+            <span>🔒 Secure</span>
+
+            <span>⚡ Fast</span>
+
+            <span>📊 Smart Reports</span>
+
+          </div>
+
+        </div>
+        
+
+      </section>
+
+      <section id="features">
+        <Features />
+      </section>
+
+      <section id="about">
+        <About />
+      </section>
+
+      <WhyChoose />
+
+      <Testimonials />
+
+      <Footer />
+
+    </>
+  );
 }
 
 export default Home;

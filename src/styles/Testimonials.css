@@ -40,3 +40,30 @@
     margin-top: 20px;
     color: #60A5FA;
 }
+/* ===========================
+   Responsive Testimonials
+=========================== */
+
+@media (max-width:768px){
+
+.testimonials{
+    padding:40px 20px;
+}
+
+.testimonials h2{
+    font-size:30px;
+    text-align:center;
+}
+
+.testimonial-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.testimonial-card{
+    width:100%;
+    box-sizing:border-box;
+}
+
+}

@@ -53,3 +53,24 @@
     transform:translateY(-8px);
     box-shadow:0 10px 25px rgba(0,0,0,0.3);
 }
+/* ===========================
+   Responsive Features
+=========================== */
+
+@media (max-width:768px){
+
+    .feature-container,
+    .features-container,
+    .features{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        gap:20px;
+    }
+
+    .feature-card,
+    .card{
+        width:90%;
+    }
+
+}

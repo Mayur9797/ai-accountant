@@ -45,3 +45,30 @@
         grid-template-columns: 1fr;
     }
 }
+/* ===========================
+   Responsive Why Choose
+=========================== */
+
+@media (max-width:768px){
+
+.why{
+    padding:40px 20px;
+    text-align:center;
+}
+
+.why h2{
+    font-size:30px;
+}
+
+.why-container{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.why-box{
+    width:100%;
+    box-sizing:border-box;
+}
+
+}

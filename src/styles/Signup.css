@@ -46,3 +46,34 @@
 .signup-card p{
     margin-top:15px;
 }
+/* ===========================
+   Responsive Signup
+=========================== */
+
+@media (max-width:768px){
+
+    .signup-container{
+        width:90%;
+        margin:30px auto;
+        padding:20px;
+    }
+
+    .signup-container h1{
+        font-size:28px;
+        text-align:center;
+    }
+
+    .signup-container input{
+        width:100%;
+        padding:12px;
+        margin-bottom:15px;
+        font-size:16px;
+    }
+
+    .signup-container button{
+        width:100%;
+        padding:12px;
+        font-size:16px;
+    }
+
+}

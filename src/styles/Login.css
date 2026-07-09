@@ -46,3 +46,32 @@
 .login-card p {
   margin-top: 15px;
 }
+  /* ===========================
+   Responsive Login
+=========================== */
+
+@media (max-width: 768px) {
+
+    .login-container {
+        width: 90%;
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .login-container h1 {
+        font-size: 28px;
+    }
+
+    .login-container input {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .login-container button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+}

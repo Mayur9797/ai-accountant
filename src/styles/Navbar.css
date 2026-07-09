@@ -44,3 +44,82 @@
 .signup-btn:hover{
     background:#3730a3;
 }
+/* ===========================
+   Responsive Navbar
+=========================== */
+
+@media (max-width: 768px) {
+
+    .navbar{
+        flex-direction: column;
+        padding:15px;
+    }
+
+    .logo{
+        margin-bottom:15px;
+        font-size:24px;
+    }
+
+    .nav-links{
+        flex-direction: column;
+        gap:15px;
+        align-items:center;
+    }
+
+}
+/* Hamburger Menu */
+
+.menu-icon{
+    display:none;
+    font-size:30px;
+    color:white;
+    cursor:pointer;
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+.navbar{
+
+    flex-wrap:wrap;
+
+}
+
+.menu-icon{
+
+    display:block;
+
+}
+
+.nav-links{
+
+    display:none;
+
+    width:100%;
+
+    flex-direction:column;
+
+    background:#1e3a8a;
+
+    margin-top:15px;
+
+    padding:20px 0;
+
+}
+
+.nav-links.active{
+
+    display:flex;
+
+}
+
+.nav-links li{
+
+    text-align:center;
+
+    margin:12px 0;
+
+}
+
+}

@@ -37,3 +37,32 @@
 .about button:hover {
     background: #1D4ED8;
 }
+/* ===========================
+   Responsive About
+=========================== */
+
+@media (max-width:768px){
+
+.about{
+    padding:40px 20px;
+}
+
+.about-content{
+    width:100%;
+    text-align:center;
+}
+
+.about-content h2{
+    font-size:30px;
+}
+
+.about-content p{
+    font-size:16px;
+    line-height:1.8;
+}
+
+.about-content button{
+    width:220px;
+}
+
+}

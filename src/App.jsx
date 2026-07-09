@@ -5,6 +5,8 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Dashboard from "./pages/Dashboard";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
+import AIAssistant from "./components/AIAssistant";
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
+      <AIAssistant />
     </>
   );
 }
