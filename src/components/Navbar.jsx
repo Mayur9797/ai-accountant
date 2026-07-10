@@ -30,12 +30,17 @@ function Navbar() {
         <li><a href="#about">About</a></li>
 
         <li><Link to="/dashboard">Dashboard</Link></li>
+        
+        <li><Link to="/reports">Reports</Link></li>
+
+        <li><Link to="/contact">Contact</Link></li>
+
 
         <li><Link to="/login" className="login-btn">Login</Link></li>
 
         <li><Link to="/signup" className="signup-btn">Sign Up</Link></li>
+        
 
-        <li><Link to="/contact">Contact</Link></li>
 
         <li><ProfileMenu /></li>
 

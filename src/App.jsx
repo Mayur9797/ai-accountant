@@ -7,7 +7,7 @@ import Dashboard from "./pages/Dashboard";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import AIAssistant from "./components/AIAssistant";
-
+import Reports from "./pages/Reports";
 function App() {
   return (
     <>
@@ -20,6 +20,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
+        <Route path="/reports" element={<Reports />} />
       </Routes>
       <AIAssistant />
     </>
